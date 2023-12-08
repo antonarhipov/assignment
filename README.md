@@ -2,7 +2,7 @@
 
 We are operating a robot. The robot can move in four directions only: North, East, West, and South. Each move is specified as a direction and a number of steps.
 
-![](images/map.png)
+![](map.png)
 
 ### The task
 
