@@ -6,7 +6,14 @@ We are operating a robot. The robot can move in four directions only: North, Eas
 
 ### The task
 
-Using the Spring Boot framework, implement a service that:
+Using Spring Boot (or any other web framework you choose), implement a simple web service in Java with two endpoints. The application should store the input data and the corresponding result for each request in a database. You can use any data access library/framework and database to implement the service.
+
+Don’t forget to commit your changes as you usually do when implementing such a project. Feel free to use any IDE features and follow any standard development practices.
+
+*Optional*: Add 1-2 unit tests to cover simple cases. 
+
+
+The web service endpoints should implement the following functionality:
 
 1. Receives a list of movement operations in JSON format as an input and outputs the coordinates recorded after each move as a JSON document. Assume that the initial location for the robot is always at (0, 0).
 
@@ -44,6 +51,3 @@ Using the Spring Boot framework, implement a service that:
 * *Optional*: Find the shortest path through all of the locations provided as an input.
 * *Note*: For testing you could also use commands from [requests.http](requests.http)
 
-#### Additional requirements for both parts of the assignment
-
-For each request, the application should store the input data and the corresponding result in a database. You can use any framework and database to implement the service.
